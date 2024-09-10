@@ -4,22 +4,6 @@ public class IPhone implements AparelhoTelefonico, NavegadorInternet, Reprodutor
     static String musica;
     static String url;
 
-    public static String getMusica() {
-        return musica;
-    }
-
-    public static void setMusica(String musica) {
-        IPhone.musica = musica;
-    }
-
-    public static String getUrl() {
-        return url;
-    }
-
-    public static void setUrl(String url) {
-        IPhone.url = url;
-    }
-
     @Override
     public void tocar() {
         System.out.println("Tocando música");
